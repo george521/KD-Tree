@@ -20,11 +20,3 @@ class KDtree:
             show = self.root.r_search(rec)
             for i in show:
                 print(i.x,"|",i.y)
-
-a=KDtree()
-a.insert(Point(1,1))
-a.insert(Point(2,1))
-a.insert(Point(3,1))
-a.insert(Point(2,2))
-a.insert(Point(5,3))
-a.search(Point(3,4),Point(5,2))
